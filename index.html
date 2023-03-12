@@ -1,11 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Personal Portfolio Website</title>
     <link rel="stylesheet" href="style.css">
-    <title>My Website</title>
 </head>
 <body>
-    <h1>Hello World!</h1>
-    <script src="script.js"></script>
+    <!-- <script src="script.js"></script> -->
+
+    <div id="header">
+        <nav>
+            <img src="logo2.jpg" class="logo">
+            <ul>
+                <li> <a href="#">HOME</a> </li>
+                <li> <a href="#">ABOUT ME</a> </li>
+                <li> <a href="#">PROJECTS</a> </li>
+                <li> <a href="#">CONTACT ME</a> </li>
+
+            </ul>
+        </nav>
+        <div class="intro">
+            <h1>I'm Bellah <span>Ellam</span></h1>
+            <p>This is my official portfolio website where I showcase personal projects
+                <br> in Data Science, Machine Learning and Software Development.
+            </p>
+        <a href="#">DOWNLOAD CV</a>
+
+        </div>
+        <div class="image">
+            <img src="unnamed.jpg" class="be">
+        </div>
+<!-- ------------------ABOUT------------- -->
+
+    </div>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="image1.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p> Data-driven web developer with a passion for crafting engaging user experiences. Proficient in data analysis, visualization, and machine learning, 
+                        I leverage my skills to transform complex data into actionable insights. With a strong background in web development, I build dynamic and responsive websites that bring data to life. 
+                        Whether it's creating custom dashboards, implementing predictive models, or optimizing website performance, I thrive on solving complex problems and delivering measurable results.
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-link active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-link" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-link" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web Development</span><br>Web App Development</li>
+                            <li><span>UI/UX</span><br>Designing Web/App Interfaces</li>
+                            <li><span>Data science & ML</span><br>Building end-to-end Machine Learning Systems</li>
+                            <li><span>Analytics & Visualization</span><br>Creating interactive dashboards to un-earth insights</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2021 - Current</span><br>Data Science & Analytics associate at KPMG East Africa</li>
+                            <li><span>2021</span><br>Consultant at Zamara Group</li>
+                            <li><span>2020</span><br>Treasury Officer at Guaranty Trust Bank</li>
+                            <li><span>2019</span><br>Data Manager at Population Council Kenya</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2023</span><br>Full Stack Software Developement Certificate from Moringa School</li>
+                            <li><span>2021</span><br>Data Science and Machine Learning Certificate from Moringa School</li>
+                            <li><span>2019</span><br>BSc. Statistics from University of Nairobi</li>
+                            
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+
+<!-- ---------PROJECTS--------------- -->
+
+
+<script src="script.js"></script>
+
 </body>
 </html>

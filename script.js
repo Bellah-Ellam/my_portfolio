@@ -1,4 +1,13 @@
-const h2 = document.createElement("h2");
-h2.textContent = "This content added by JavaScript";
+var tablink = document.getElementsByClassName("tab-link")
+var tabcontents = document.getElementsByClassName("tab-contents")
 
-document.querySelector("body").appendChild(h2);
+function opentab(tabname){
+    for (tabl of tablink){
+        tabl.classList.remove("active-link")
+    }
+    for (tablco of tabcontents){
+        tablco.classList.remove("active-tab")
+    }
+    event.currentTarget.classList.add("active-link")
+    document.getElementById(tabname).classList.add("active-tab")
+}
