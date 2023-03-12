@@ -7,13 +7,14 @@
     
     <title>Personal Portfolio Website</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/f2093d781b.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <!-- <script src="script.js"></script> -->
 
     <div id="header">
         <nav>
-            <img src="logo2.jpg" class="logo">
+            <img src="logo4.jpg" class="logo">
             <ul>
                 <li> <a href="#">HOME</a> </li>
                 <li> <a href="#">ABOUT ME</a> </li>
@@ -27,7 +28,7 @@
             <p>This is my official portfolio website where I showcase personal projects
                 <br> in Data Science, Machine Learning and Software Development.
             </p>
-        <a href="#">DOWNLOAD CV</a>
+        <a href="CV.pdf" download="#">DOWNLOAD CV</a>
 
         </div>
         <div class="image">
@@ -58,7 +59,7 @@
                             <li><span>Web Development</span><br>Web App Development</li>
                             <li><span>UI/UX</span><br>Designing Web/App Interfaces</li>
                             <li><span>Data science & ML</span><br>Building end-to-end Machine Learning Systems</li>
-                            <li><span>Analytics & Visualization</span><br>Creating interactive dashboards to un-earth insights</li>
+                            <li><span>Analytics & Visualization</span><br>Creating interactive dashboards to unearth insights</li>
                         </ul>
                     </div>
                     <div class="tab-contents" id="experience">
@@ -86,7 +87,70 @@
 
 
 <!-- ---------PROJECTS--------------- -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">Projects</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="datas.jpg">
+                <div class="layer">
+                    <h3>Tweet Classifier</h3>
+                    <p>This project uses Recurrent Neural Networks to detect hate speech in Tweets.</p>
+                    <a href="https://github.com/therealellam/Offensive-Language-Hate-speech-classification-on-Twitter"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="web.jpg">
+                <div class="layer">
+                    <h3>Portfolio Website</h3>
+                    <p>This is a Personal portfolio project using HTML, CSS and JavaScript.</p>
+                    <a href="https://bellah-ellam.github.io/my_portfolio/"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="uiux.jpg">
+                <div class="layer">
+                    <h3>UI/UX Design</h3>
+                    <p>Application User Interface User experience Design</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
 
+
+    </div>
+
+
+</div>
+
+<!-- ------contact info------------ -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p><i class="fa-solid fa-paper-plane"></i>ellambellah@gmail.com</p>
+            <p><i class="fa-sharp fa-solid fa-square-phone"></i>+254 714083194</p>
+            <div class="social-icons">
+                <a href="https://twitter.com/bellah_ellam?lang=en"><i class="fa-brands fa-twitter"></i></a>
+                <a href="http://linkedin.com/in/bellah-ellam-44b464115"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/Bellah-Ellam"><i class="fa-brands fa-github"></i></a>
+            </div>
+            </div>
+            <div class="contact-right">
+            <form>
+                <input type="text" name="Name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                <button type="submit" class="btn">Submit</button>
+            </form>
+            </div>
+        </div>
+    </div>
+
+
+</div>
 
 <script src="script.js"></script>
 
